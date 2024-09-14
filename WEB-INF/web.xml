@@ -6,6 +6,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>SurveyListServlet</servlet-name>
-        <url-pattern>/surveyList</url-pattern>
+        <url-pattern>/SurveyListServlet</url-pattern>
     </servlet-mapping>
 </web-app>
