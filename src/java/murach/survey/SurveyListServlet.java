@@ -58,7 +58,7 @@ public class SurveyListServlet extends HttpServlet  {
             User user = new User(email, firstName, lastName, dob, heardFrom, wantsUpdates, contactVia);
             // set User object in request object and set URL
             request.setAttribute("user", user);
-            url = "/thanks.jsp";   // the "thanks" page
+            url = "/thanks.html";   // the "thanks" page
         }
         
         // forward request and response objects to specified URL
